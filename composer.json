@@ -1,0 +1,21 @@
+{
+    "name": "sem765887/server-practice",
+    "description": "practice on server side",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Semyon Gardt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
